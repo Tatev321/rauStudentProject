@@ -1,6 +1,13 @@
+function requsetStudents() {
+	$.ajax({
+		url: 'get-students',
+		success: function() {
 
-function handleLogin() {
-	debugger;
-	var userNameValue = document.getElementById('user-name').value;
-	var userPasswordValue = document.getElementById('user-password').value;
+		},
+		failure: function(err) {
+
+		}
+	})
 }
+
+requsetStudents();
