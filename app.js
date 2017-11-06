@@ -13,7 +13,7 @@ app.get('/get-students', function(req, res) {
 });
 
 app.listen(port, function() {
-	console.log('application runs in port 3001')
+	console.log('our application runs good in port 3001')
 })
 
 app.use('/resources', express.static('resources'));
