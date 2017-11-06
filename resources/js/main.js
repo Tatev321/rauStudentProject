@@ -2,10 +2,10 @@ function requsetStudents() {
 	$.ajax({
 		url: 'get-students',
 		success: function() {
-
+			debugger;
 		},
-		failure: function(err) {
-
+		error: function(err) {
+			debugger;
 		}
 	})
 }

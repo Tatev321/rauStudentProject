@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/get-students', function(req, res) {
-	res.send({data: ["el1", "el2", "el3"]}).status(200);
+	res.status(500).send({data: ["el1", "el2", "el3", "el4"]});
 });
 
 app.listen(port, function() {
