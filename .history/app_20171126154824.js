@@ -14,6 +14,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 app.get('/show-students', function(req, res) {
+	// res.status(500).send({data: ["el1", "el2", "el3", "el4"]});
 	res.render('show-students', { students: students } );
 });
 
