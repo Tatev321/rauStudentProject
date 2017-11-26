@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 var port = 3001;
-var fs = require("fs"); 
+var fs = require("fs");
 var students = require(__dirname+'/resources/json/students.json');
 
  
